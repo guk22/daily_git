@@ -1,0 +1,10 @@
+from functools import reduce
+
+num, base = map(int, input().strip().split(' '))
+
+assert (base >= 0) & (base <= 10), "base error"
+assert (num >= 0) & (num <= 3000), "number error"
+
+decimal_num = int(str(num), base)
+
+print(decimal)
